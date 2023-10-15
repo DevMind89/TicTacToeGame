@@ -6,11 +6,13 @@ public class TicTacToe {
 	public static void main(String[] args) throws InterruptedException {
 		
 		char[][] board = { 
+				
 				{ ' ', '|', ' ', '|', ' ' },
 				{ '-', '+', '-', '+', '-' }, 
 				{ ' ', '|', ' ', '|', ' ' },
 				{ '-', '+', '-', '+', '-' }, 
-				{ ' ', '|', ' ', '|', ' ' } };
+				{ ' ', '|', ' ', '|', ' ' } 
+		};
 
 		GameBoard gameBoard = new GameBoard();
 		ChoosePosition choosePosition = new ChoosePosition();		
