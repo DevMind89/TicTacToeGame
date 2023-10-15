@@ -10,7 +10,7 @@ public class TicTacToe {
 				{ '-', '+', '-', '+', '-' }, 
 				{ ' ', '|', ' ', '|', ' ' },
 				{ '-', '+', '-', '+', '-' }, 
-				{ ' ', '|', ' ', '|', ' ' } };
+				{ ' ', '|', ' ', '|', ' ' }};
 
 		GameBoard gameBoard = new GameBoard();
 		ChoosePosition choosePosition = new ChoosePosition();		
