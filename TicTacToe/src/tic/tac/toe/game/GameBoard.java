@@ -1,3 +1,4 @@
+package tic.tac.toe.game;
 
 public class GameBoard {
 
